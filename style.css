@@ -2,7 +2,6 @@ body,
 html {
   margin: 0;
   padding: 0;
-  /* height: 75%; */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -51,9 +50,6 @@ html {
 .card {
   flex: 1;
   margin: 10px;
-  /* border: 1px solid rgb(56, 3, 12); */
-  /* text-align: center; */
-  /* padding: 16px; */
   box-sizing: border-box;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -73,9 +69,7 @@ html {
 
   .row {
     flex-direction: row;
-    /* Change to row for mobile */
     flex-wrap: wrap;
-    /* font-size: large; */
   }
 
   .card {
@@ -90,11 +84,6 @@ html {
   font-size: smaller;
 }
 
-/* 
-h2{
-  margin: 0px; 
-  margin-bottom: 5px;
-} */
 
 img {
   max-width: 100%;
@@ -108,27 +97,12 @@ img {
   text-wrap: wrap;
   font-size: 16px;
   padding-bottom: 10px;
-  /* font-size: large; */
-  /* margin-top: 0px;
-   max-width: 100%; 
-   font-size: 15px; */
 }
 .cardtext{
    font-size: 30px;
    text-wrap: wrap;
 }
 
-/* .card:hover {
-  cursor: pointer;
-} */
-/* .firstbtn{
-  margin-top: 100px;
-} */
-/* .firstbtn:hover{
- 
-  background-color: #380202;
-  color: white;
-} */
 .section {
   /* background-color: rgb(255, 152, 169); */
   background-color: rgb(235, 180, 189);
@@ -165,7 +139,7 @@ img {
 }
 
 .firstbtn span:after {
-  content: '\00bb';
+ 
   position: absolute;
   opacity: 0;
   top: 0;
@@ -204,7 +178,6 @@ img {
   transition: transform .2s;
   width: 250px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  /* for box shadow */
 
 }
 
@@ -242,7 +215,7 @@ button:hover {
   border: 0;
   color: rgb(56, 3, 12);
   background-color: rgb(241, 229, 231);
-  ;
+  
 }
 
 .iconbtn {
